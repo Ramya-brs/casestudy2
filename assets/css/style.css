@@ -177,25 +177,25 @@ header .column_4 {
 .latst_wrks {
     background: #ffe3db;
     width: 100%;
-    padding: 120px 0;
+    padding: 50px 0;
 }
 .latst_wrks h2 {
     font-size: 33px;
     font-weight: 800;
     font-family: "lato";
-    text-align: center;
-    margin-bottom: 100px;
+    text-align: left;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 .latst_wrks h2 span {
-    width: 230px;
+    width:150px;
     height: 6px;
     background: #f2bb16;
     display: block;
-    margin: 0 auto;
-    position: relative;
-    left: 50px;
+    margin:20 auto;
+    position: left;
+    left: 150px;
 }
 .latst_wrks h5 {
     font-size: 20px;
@@ -238,8 +238,8 @@ header .column_4 {
 }
 .latst_wrks_rgt img {
     position: relative;
-    top: 40px;
-    right: 60px;
+    top: 20px;
+    right: 20px;
     width: 100%;
 }
 .view_web_btn {
@@ -263,17 +263,19 @@ header .column_4 {
     float: right;
 }
 .back_end_blk .latst_wrks_rgt {
+    height: 20px;
     background: #2e5ff2;
-    padding: 20px 0;
+    height: 20px;
+    padding: 10px 20;
 }
 .back_end_blk .latst_wrks_rgt img {
     position: relative;
-    top: 40px;
-    left: 60px;
-    width: 100%;
+    top: 10px;
+    left: 50px;
+    width: 50%;
 }
 .back_end_blk .column_4 {
-    margin-right: 2em;
+    margin-right: 3em;
     position: relative;
     left: 1.5%;
 }
@@ -306,7 +308,8 @@ header .column_4 {
     float: right;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-top: 45px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .exprinc_block h2 span {
     width: 220px;
@@ -359,10 +362,10 @@ header .column_4 {
     font-family: "lato";
     color: #0d0c22;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 .eductin_block p {
-    font-size: 20px;
+    font-size: 60px;
     font-weight: 400;
     font-family: "lato";
     color: #323232;
@@ -546,7 +549,7 @@ footer {
         background: #f285b8;
         padding: 20px;
         margin: 0 auto;
-        text-align: center;
+        text-align: left;
         width: auto;
     }
     .latst_wrks_rgt img {
@@ -578,7 +581,7 @@ footer {
     .latst_wrks_cntnt {
         width: 80%;
         margin: 0 auto;
-        text-align: center;
+        text-align: left;
     }
     .view_web_btn {
         margin: 15px auto;
@@ -650,6 +653,7 @@ footer {
     .latst_wrks h2 span {
         position: unset;
         width: 290px;
+        margin-bottom: 50px;
     }
     .exprinc_block h2 {
         margin-bottom: 50px;
